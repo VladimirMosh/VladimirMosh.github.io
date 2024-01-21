@@ -1,140 +1,140 @@
 @font-face {
-  font-family: Gilroy-Bold;
-  src: url("fonts/gilroy-semibold.woff2");
+    font-family: Gilroy-Bold;
+    src: url("fonts/gilroy-semibold.woff2");
 }
 
 @font-face {
-  font-family: Gilroy-SemiBold;
-  src: url("fonts/gilroy-semibold.woff2");
+    font-family: Gilroy-SemiBold;
+    src: url("fonts/gilroy-semibold.woff2");
 }
 
 @font-face {
-  font-family: Gilroy-Medium;
-  src: url("fonts/gilroy-medium.woff2");
+    font-family: Gilroy-Medium;
+    src: url("fonts/gilroy-medium.woff2");
 }
 
 @font-face {
-  font-family: Gilroy;
-  src: url("fonts/gilroy-regular.woff2");
+    font-family: Gilroy;
+    src: url("fonts/gilroy-regular.woff2");
 }
 
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 body {
-  background: #fff;
-  font-family: "Gilroy";
-  font-weight: 400;
+    background: #fff;
+    font-family: "Gilroy";
+    font-weight: 400;
 }
 
 .content,
 .footer {
-  max-width: 1170px;
-  margin: 0 auto;
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-  margin-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 84px;
 }
 
 .logo__text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 14px;
-  font-family: "Gilroy-Bold";
-  font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
 }
 
 .grow {
-  color: #000000;
+    color: #000000;
 }
 
 .be {
-  color: #f25822;
+    color: #f25822;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  width: 533px;
-  font-size: 14px;
-  line-height: 17px;
+    display: flex;
+    justify-content: space-between;
+    width: 533px;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .nav__link {
-  color: #000;
-  font-family: "Gilroy-Medium";
+    color: #000;
+    font-family: "Gilroy-Medium";
 }
 
 .nav__link--active {
-  color: #f25822;
-  font-family: "Gilroy-SemiBold";
+    color: #f25822;
+    font-family: "Gilroy-SemiBold";
 }
 
 .main {
-  display: flex;
-  gap: 39px;
-  margin-bottom: 162px;
+    display: flex;
+    gap: 39px;
+    margin-bottom: 162px;
 }
 
 .main__info {
-  max-width: 522px;
+    max-width: 522px;
 }
 
 .main__title {
-  color: #000;
-  font-size: 60px;
-  font-family: "Gilroy-Bold";
-  margin-bottom: 17px;
+    color: #000;
+    font-size: 60px;
+    font-family: "Gilroy-Bold";
+    margin-bottom: 17px;
 }
 
 .main__text {
-  color: #888;
-  font-size: 20px;
-  font-family: "Gilroy-Medium";
-  margin-bottom: 37px;
+    color: #888;
+    font-size: 20px;
+    font-family: "Gilroy-Medium";
+    margin-bottom: 37px;
 }
 
 .btn_group {
-  display: flex;
-  align-items: center;
-  gap: 72px;
-  font-family: "Gilroy-Bold";
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    font-family: "Gilroy-Bold";
 }
 
 .btn {
-  font-size: 15px;
-  width: 140px;
-  height: 50px;
-  flex-shrink: 0;
-  border-radius: 50px;
-  background: #f25822;
-  border: 0;
-  color: #fff;
-  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    font-size: 15px;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #f25822;
+    border: 0;
+    color: #fff;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
 }
 
 .text__btn {
-  color: #aaa;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+    color: #aaa;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .footer__logo {
-  display: flex;
-  justify-content: space-between;
-  margin: 97px auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 97px auto;
 }
