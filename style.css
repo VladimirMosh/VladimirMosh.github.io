@@ -57,11 +57,21 @@ body {
 }
 
 .grow {
-    color: #000000;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .be {
-    color: #f25822;
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .nav {
@@ -111,6 +121,9 @@ body {
     align-items: center;
     gap: 72px;
     font-family: "Gilroy-Bold";
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
 }
 
 .btn {
