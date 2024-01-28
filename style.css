@@ -151,8 +151,18 @@ body {
     line-height: normal;
 }
 
-.footer__logo {
+.logo {
     display: flex;
     justify-content: space-between;
     margin: 97px auto;
+}
+
+.features {
+    display: flex;
+    width: 1920px;
+    height: 507px;
+    padding: 100px 373px;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
 }
