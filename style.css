@@ -106,6 +106,13 @@ body {
     margin-bottom: 162px;
 }
 
+.maincen {
+    display: flex;
+    gap: 39px;
+    margin-bottom: 162px;
+    background-color: #F0F0F0;
+}
+
 .main__info {
     max-width: 522px;
 }
