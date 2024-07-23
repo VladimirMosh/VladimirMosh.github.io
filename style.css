@@ -324,6 +324,128 @@ summary::-webkit-details-marker {
   color: #636363;
 }
 
+.slider {
+  background-color: #f7f7f7;
+  width: 1600px;
+  height: 777px;
+  top: 223px;
+}
+.slider__img {
+  position: absolute;
+  top: 610px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 597px;
+  height: 724px;
+}
+
+.box {
+  position: relative;
+  height: 601px;
+  border: 1px #000;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 120px;
+  top: -95px;
+}
+
+.product__description {
+  background-color: #FFFFFF;
+  width: 1141px;
+  flex-shrink: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-bottom: 129px;
+  border: 1px #EAEAEA solid;
+}
+.product__description__subtitle-ping {
+  margin-bottom: 12px;
+  color: #F16D7F;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.product__description__subtitle {
+  margin-top: 12px;
+  margin-bottom: 49px;
+  color: #4D4D4D;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.product__description__text {
+  margin-bottom: 33px;
+  color: #5E5E5E;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 555px;
+}
+.product__description__price {
+  margin-bottom: 65px;
+  color: #F16D7F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.product__description__sort {
+  margin-top: 5px;
+  margin-bottom: 49px;
+  display: flex;
+  gap: 23px;
+}
+.product__description__sort__select {
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+.product__description__button {
+  width: 212px;
+  height: 48.406px;
+  flex-shrink: 0;
+  border: 1px #F16D7F solid;
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  padding-left: 24px;
+  background-color: #FFFFFF;
+  transition: all 0.3s;
+}
+.product__description__button__text {
+  margin-bottom: 0;
+  color: #F16D7F;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.product__description__button:hover {
+  background-color: #F16D7F;
+  color: #FBFBFB;
+  border: none;
+}
+.product__description__button:hover .product__description__button__text {
+  color: #FBFBFB;
+}
+.product__description__button:hover path {
+  fill: #FBFBFB;
+}
+
 .content__title {
   color: #222;
   font-size: 30px;
