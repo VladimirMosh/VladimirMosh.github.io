@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -88,238 +88,146 @@
     </div>
 </header>
 <main>
-    <div class="top-banner center-top_banner">
-        <div class="img">
-            <img src="./img/top-banner-img.png" alt="top-banner-img">
-        </div>
-        <div class="title">
-            <div class="rectangle"></div>
-            <div class="text">
-                <span class="text_main">THE BRAND</span><br>
-                <span class="text_black">OF LUXERIOUS</span> <span class="text_red">FASHION</span>
-            </div>
+    <div class="breadcrumb center">
+        <div class="breadcrumb__title">
+            <p>SHOPPING CART</p>
         </div>
     </div>
-    <div class="catalog-banners center">
-        <div class="banner">
-            <img src="img/sb1.jpg" alt="banner1">
-            <a href="#">
-                <div class="text">
-                    <p class="white_text">30% OFF</p>
-                    <p class="red_text">FOR WOMAN</p>
-                </div>
-            </a>
-        </div>
-        <div class="banner">
-            <img src="img/sb2.jpg" alt="banner2">
-            <a href="#">
-                <div class="text">
-                    <p class="white_text">HOT DEAL</p>
-                    <p class="red_text">FOR MEN</p>
-                </div>
-            </a>
-        </div>
-        <div class="banner">
-            <img src="img/sb3.jpg" alt="banner3">
-            <a href="#">
-                <div class="text">
-                    <p class="white_text">NEW ARRIVALS</p>
-                    <p class="red_text">FOR KIDS</p>
-                </div>
-            </a>
-        </div>
-        <div class="big_banner">
-            <img src="img/sb-big.jpg" alt="big-banner">
-            <a href="#">
-                <div class="text">
-                    <p class="white_text">LUXIROUS & TRENDY</p>
-                    <p class="red_text">ACCESORIES</p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="fetured-items center">
-        <div class="text">
-            <p class="title">Fetured Items</p>
-            <p class="sub-title">Shop for items based on what we featured in this week</p>
-        </div>
-        <div class="banners">
-            <div class="banner">
-                <div class="img1 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
+    <div class="cart-content center">
+        <div class="cart-content__cards">
+            <div class="cart-content__cards__cards-list">
+                <div class="cart-content__cards__cards-list__card">
+                    <div class="card-img">
+                        <img class="img-big" src="./img/cart/img1.jpeg" alt="img1">
+                    </div>
+                    <div class="card-data">
+                        <div class="card-data__title">
+                            <p>MANGO PEOPLE <br>T-SHIRT</p>
+                        </div>
+                        <div class="card-data__parameters">
+                            <p>Price: <span class="pink">$300</span></p>
+                            <p>Color: <span class="light-grey">Red</span></p>
+                            <p>Size: <span class="light-grey">XI</span></p>
+                            <form action="#" method="get" class="quantity">
+                                <div class="quantity-form">
+                                    <label for="quantity1">Quantity: </label><input class="quantity-input" type="number"
+                                                                                    name="quantity"
+                                                                                    id="quantity1" required>
                                 </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-delete">
+                        <form action="#" method="get">
+                            <button type="submit">
+                                <svg class="delete-icon-big" width="18.000000" height="18.000000" viewBox="0 0 18 18"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs/>
+                                    <path id="Vector"
+                                          d="M11.2454 9L17.5302 2.71521C17.8285 2.41736 17.9962 2.01331 17.9966 1.59192C17.997
+                                  1.17041 17.8299 0.766113 17.5322 0.467773C17.2344 0.169556 16.8304 0.00183105 16.4089
+                                  0.00134277C15.9875 0.000976562 15.5831 0.168091 15.2849 0.46582L9 6.75073L2.71515
+                                  0.46582C2.41687 0.167603 2.01233 0 1.59052 0C1.1687 0 0.764099 0.167603 0.46582
+                                  0.46582C0.167542 0.76416 0 1.1687 0 1.59045C0 2.01233 0.167542 2.41687 0.46582
+                                  2.71521L6.75067 9L0.46582 15.2848C0.167542 15.5831 0 15.9877 0 16.4095C0 16.8313
+                                  0.167542 17.2358 0.46582 17.5342C0.764099 17.8324 1.1687 18 1.59052 18C2.01233 18
+                                  2.41687 17.8324 2.71515 17.5342L9 11.2493L15.2849 17.5342C15.5831 17.8324 15.9877 18
+                                  16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8325 17.2358 18 16.8313 18
+                                  16.4095C18 15.9877 17.8325 15.5831 17.5342 15.2848L11.2454 9Z"
+                                          fill="#575757" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </svg>
+                            </button>
+                        </form>
                     </div>
                 </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img2 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
+                <div class="cart-content__cards__cards-list__card">
+                    <div class="card-img">
+                        <img class="img-big" src="./img/cart/img2.jpeg" alt="img2">
+                    </div>
+                    <div class="card-data">
+                        <div class="card-data__title">
+                            <p>MANGO PEOPLE <br>T-SHIRT</p>
+                        </div>
+                        <div class="card-data__parameters">
+                            <p>Price: <span class="pink">$300</span></p>
+                            <p>Color: <span class="light-grey">Red</span></p>
+                            <p>Size: <span class="light-grey">XI</span></p>
+                            <form action="#" method="get" class="quantity">
+                                <div class="quantity-form">
+                                    <label for="quantity2">Quantity: </label><input class="quantity-input" type="number"
+                                                                                    name="quantity"
+                                                                                    id="quantity2" required>
                                 </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-delete">
+                        <form action="#" method="get">
+                            <button type="submit">
+                                <svg class="delete-icon-big" width="18.000000" height="18.000000" viewBox="0 0 18 18"
+                                     fill="none"
+                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs/>
+                                    <path id="delete-icon-big"
+                                          d="M11.2454 9L17.5302 2.71521C17.8285 2.41736 17.9962 2.01331 17.9966 1.59192C17.997
+                                  1.17041 17.8299 0.766113 17.5322 0.467773C17.2344 0.169556 16.8304 0.00183105 16.4089
+                                  0.00134277C15.9875 0.000976562 15.5831 0.168091 15.2849 0.46582L9 6.75073L2.71515
+                                  0.46582C2.41687 0.167603 2.01233 0 1.59052 0C1.1687 0 0.764099 0.167603 0.46582
+                                  0.46582C0.167542 0.76416 0 1.1687 0 1.59045C0 2.01233 0.167542 2.41687 0.46582
+                                  2.71521L6.75067 9L0.46582 15.2848C0.167542 15.5831 0 15.9877 0 16.4095C0 16.8313
+                                  0.167542 17.2358 0.46582 17.5342C0.764099 17.8324 1.1687 18 1.59052 18C2.01233 18
+                                  2.41687 17.8324 2.71515 17.5342L9 11.2493L15.2849 17.5342C15.5831 17.8324 15.9877 18
+                                  16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8325 17.2358 18 16.8313 18
+                                  16.4095C18 15.9877 17.8325 15.5831 17.5342 15.2848L11.2454 9Z"
+                                          fill="#575757" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                </svg>
+                            </button>
+                        </form>
                     </div>
                 </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
             </div>
-            <div class="banner">
-                <div class="img3 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img4 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img5 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img6 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
+            <div class="cart-content__cards__cards-nav">
+                <button class="btn" type="button"><span class="btn__text">CLEAR SHOPPING CART</span></button>
+                <button class="btn" type="button"><span class="btn__text">CONTINUE SHOPPING</span></button>
             </div>
         </div>
-        <div class="see_all">
-            <div class="rectangle">
-                <a href="#"><p class="text">Browse All Product</p></a>
+        <div class="cart-content__forms">
+            <div class="cart-content__forms__address-form">
+                <form action="#" method="get">
+                    <fieldset class="delivery-address">
+                        <legend class="cart-content__forms__address-form__title">
+                            SHIPPING ADDRESS
+                        </legend>
+                        <div class="delivery-address__labels">
+                            <label class="delivery-label" for="city">
+                                <input class="delivery-input" id="city" name="city" type="text" placeholder="City">
+                            </label>
+                            <label class="delivery-label" for="state">
+                                <input class="delivery-input" id="state" name="state" type="text" placeholder="State">
+                            </label>
+                            <label class="delivery-label" for="postcode">
+                                <input class="delivery-input" id="postcode" name="postcode" type="number"
+                                       placeholder="Postcode/Zip">
+                            </label>
+                        </div>
+                        <button class="delivery-btn" type="submit">GET A QUOTE</button>
+                    </fieldset>
+                </form>
             </div>
-        </div>
-    </div>
-    <div class="plus">
-        <div class="content">
-            <div class="block">
-                <div class="img">
-                    <img src="./img/delivery.svg" alt="delivery">
+            <div class="cart-content__forms__total-info">
+                <div class="cart-content__forms__total-info__sub-text">
+                    <p class="text">SUB TOTAL</p>
+                    <p class="price">$900</p>
                 </div>
-                <div class="title">
-                    <p>Free Delivery</p>
+                <div class="cart-content__forms__total-info__grand-text">
+                    <p class="text">GRAND TOTAL</p>
+                    <p class="price">$900</p>
                 </div>
-                <div class="subtitle">
-                    <p>Worldwide delivery on all. Authorit tively morph<br>next-generation innov tion with extensive
-                        models.</p>
-                </div>
-            </div>
-            <div class="block">
-                <div class="img">
-                    <img src="./img/sales.svg" alt="sales">
-                </div>
-                <div class="title">
-                    <p>Sales & discounts</p>
-                </div>
-                <div class="subtitle">
-                    <p>Worldwide delivery on all. Authorit tively morph<br>next-generation innov tion with extensive
-                        models.</p>
-                </div>
-            </div>
-            <div class="block">
-                <div class="img">
-                    <img src="./img/quality.svg" alt="quality">
-                </div>
-                <div class="title">
-                    <p>Quality assurance</p>
-                </div>
-                <div class="subtitle">
-                    <p>Worldwide delivery on all. Authorit tively morph<br>next-generation innov tion with extensive
-                        models.</p>
-                </div>
+                <div class="cart-content__forms__total-info__line"></div>
+                <form action="#" method="get" class="cart-content__forms__total-info__form">
+                    <button class="btn" type="submit">PROCEED TO CHECKOUT</button>
+                </form>
             </div>
         </div>
     </div>
@@ -445,3 +353,5 @@
 </footer>
 </body>
 </html>
+
+

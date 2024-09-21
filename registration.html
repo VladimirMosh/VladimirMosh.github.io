@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
@@ -88,239 +88,95 @@
     </div>
 </header>
 <main>
-    <div class="top-banner center-top_banner">
-        <div class="img">
-            <img src="./img/top-banner-img.png" alt="top-banner-img">
-        </div>
-        <div class="title">
-            <div class="rectangle"></div>
-            <div class="text">
-                <span class="text_main">THE BRAND</span><br>
-                <span class="text_black">OF LUXERIOUS</span> <span class="text_red">FASHION</span>
-            </div>
+    <div class="breadcrumb center">
+        <div class="breadcrumb__title">
+            <p>REGISTRATION</p>
         </div>
     </div>
-    <div class="catalog-banners center">
-        <div class="banner">
-            <img src="img/sb1.jpg" alt="banner1">
-            <a href="#">
-                <div class="text">
-                    <p class="white_text">30% OFF</p>
-                    <p class="red_text">FOR WOMAN</p>
-                </div>
-            </a>
-        </div>
-        <div class="banner">
-            <img src="img/sb2.jpg" alt="banner2">
-            <a href="#">
-                <div class="text">
-                    <p class="white_text">HOT DEAL</p>
-                    <p class="red_text">FOR MEN</p>
-                </div>
-            </a>
-        </div>
-        <div class="banner">
-            <img src="img/sb3.jpg" alt="banner3">
-            <a href="#">
-                <div class="text">
-                    <p class="white_text">NEW ARRIVALS</p>
-                    <p class="red_text">FOR KIDS</p>
-                </div>
-            </a>
-        </div>
-        <div class="big_banner">
-            <img src="img/sb-big.jpg" alt="big-banner">
-            <a href="#">
-                <div class="text">
-                    <p class="white_text">LUXIROUS & TRENDY</p>
-                    <p class="red_text">ACCESORIES</p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="fetured-items center">
-        <div class="text">
-            <p class="title">Fetured Items</p>
-            <p class="sub-title">Shop for items based on what we featured in this week</p>
-        </div>
-        <div class="banners">
-            <div class="banner">
-                <div class="img1 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
+    <div class="registration-form center">
+        <div class="registration-form__form">
+            <form action="#" method="get">
+                <fieldset class="registration-form__name-block registration-form__fieldset">
+                    <legend class="registration-form__title">
+                        Your Name
+                    </legend>
+                    <div class="registration-form__labels-block">
+                        <label class="registration-form__label" for="first-name">
+                            <input class="registration-form__input" id="first-name" name="first-name" type="text"
+                                   placeholder="First Name">
+                        </label>
+                        <label class="registration-form__label" for="last-name">
+                            <input class="registration-form__input" id="last-name" name="last-name" type="text"
+                                   placeholder="Last Name">
+                        </label>
                     </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img2 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
+                </fieldset>
+                <fieldset class="registration-form__gender-block registration-form__fieldset">
+                    <div class="registration-form__radio-button">
+                        <input class="registration-form__rbtn" type="radio" id="male" name="gender" value="Male"
+                               checked>
+                        <label class="registration-form__rbtn-text text-margin" for="male">Male</label>
+                        <input class="registration-form__rbtn" type="radio" id="female" name="gender" value="Female">
+                        <label class="registration-form__rbtn-text" for="female">Female</label>
                     </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img3 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
+                </fieldset>
+                <fieldset class="registration-form__login-block registration-form__fieldset">
+                    <legend class="registration-form__title">
+                        Login details
+                    </legend>
+                    <div class="registration-form__labels-block">
+                        <label class="registration-form__label" for="email">
+                            <input class="registration-form__input" id="email" name="email" type="email"
+                                   placeholder="Email">
+                        </label>
+                        <label class="registration-form__label" for="password">
+                            <input class="registration-form__input" id="password" name="password" type="password"
+                                   placeholder="Password">
+                        </label>
+                        <p class="registration-form__text-description">Please use 8 or more characters, with at least 1
+                            number and a mixture of uppercase and lowercase letters</p>
                     </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img4 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img5 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img6 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
+                </fieldset>
+                <button class="registration-form__btn" type="submit">
+                    <span>JOIN NOW</span>
+                    <svg width="17.000977" height="9.918610" viewBox="0 0 17.001 9.91861" fill="none"
+                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="registration-svg-1"
+                              d="M11.54 0.208099C11.6058 0.14212 11.684 0.0897827 11.77 0.0540771C11.8561 0.0183716
+                              11.9484 0 12.0415 0C12.1346 0 12.2269 0.0183716 12.313 0.0540771C12.399 0.0897827 12.4772
+                              0.14212 12.543 0.208099L16.7928 4.45801C16.8589 4.5238 16.9111 4.60196 16.9469
+                              4.68802C16.9825 4.77408 17.001 4.86633 17.001 4.9595C17.001 5.05267 16.9825 5.1449 16.9469
+                              5.23096C16.9111 5.31702 16.8589 5.39517 16.7928 5.46097L12.543 9.71088C12.41 9.8439
+                              12.2296 9.91861 12.0415 9.91861C11.8534 9.91861 11.673 9.8439 11.54 9.71088C11.407 9.57788
+                              11.3323 9.39749 11.3323 9.20941C11.3323 9.0213 11.407 8.84091 11.54 8.70792L15.2898
+                              4.9595L11.54 1.21106C11.474 1.14526 11.4218 1.06711 11.386 0.981049C11.3503 0.89502
+                              11.3319 0.802765 11.3319 0.709595C11.3319 0.616425 11.3503 0.52417 11.386 0.43811C11.4218
+                              0.352051 11.474 0.273895 11.54 0.208099Z"
+                              fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="registration-svg-2"
+                              d="M0 4.95947C0 4.77161 0.074585 4.59146 0.20752 4.45862C0.340332 4.32578 0.520508 4.25116
+                              0.708374 4.25116L15.583 4.25116C15.7709 4.25116 15.951 4.32578 16.0839 4.45862C16.2167
+                              4.59146 16.2913 4.77161 16.2913 4.95947C16.2913 5.14734 16.2167 5.32748 16.0839
+                              5.46033C15.951 5.59317 15.7709 5.66779 15.583 5.66779L0.708374 5.66779C0.520508 5.66779
+                              0.340332 5.59317 0.20752 5.46033C0.074585 5.32748 0 5.14734 0 4.95947Z"
+                              fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>
+
+                </button>
+            </form>
         </div>
-        <div class="see_all">
-            <div class="rectangle">
-                <a href="#"><p class="text">Browse All Product</p></a>
-            </div>
-        </div>
-    </div>
-    <div class="plus">
-        <div class="content">
-            <div class="block">
-                <div class="img">
-                    <img src="./img/delivery.svg" alt="delivery">
-                </div>
-                <div class="title">
-                    <p>Free Delivery</p>
-                </div>
-                <div class="subtitle">
-                    <p>Worldwide delivery on all. Authorit tively morph<br>next-generation innov tion with extensive
-                        models.</p>
-                </div>
-            </div>
-            <div class="block">
-                <div class="img">
-                    <img src="./img/sales.svg" alt="sales">
-                </div>
-                <div class="title">
-                    <p>Sales & discounts</p>
-                </div>
-                <div class="subtitle">
-                    <p>Worldwide delivery on all. Authorit tively morph<br>next-generation innov tion with extensive
-                        models.</p>
-                </div>
-            </div>
-            <div class="block">
-                <div class="img">
-                    <img src="./img/quality.svg" alt="quality">
-                </div>
-                <div class="title">
-                    <p>Quality assurance</p>
-                </div>
-                <div class="subtitle">
-                    <p>Worldwide delivery on all. Authorit tively morph<br>next-generation innov tion with extensive
-                        models.</p>
-                </div>
-            </div>
+        <div class="registration-form__text">
+            <p class="registration-form__text-title">LOYALTY HAS ITS PERKS</p>
+            <p class="registration-form__text-p">Get in on the loyalty program where you can earn points and unlock
+                serious perks. Starting with these as soon as you join:</p>
+            <ul class="registration-form__text-li">
+                <li>15% off welcome offer</li>
+                <li>Free shipping, returns and exchanges on all orders</li>
+                <li>$10 off a purchase on your birthday</li>
+                <li>Early access to products</li>
+                <li>Exclusive offers & rewards</li>
+            </ul>
         </div>
     </div>
     <div class="reviews-and-subscribe">
