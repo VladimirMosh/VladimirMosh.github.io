@@ -112,151 +112,176 @@
             </a>
         </div>
     </div>
-    <div class="fetured-items center">
-        <div class="text">
-            <p class="title">Fetured Items</p>
-            <p class="sub-title">Shop for items based on what we featured in this week</p>
+    <style> 
+.future {
+    padding-top: 31px;
+    padding-bottom: 60px;
+}
+
+.future-heading {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.future-heading-titl {
+    color: #222;
+
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.future-heading-text {
+    color: #9f9f9f;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.future-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    /* grid-template-rows: 1 fr 1 fr; */
+    gap: 30px;
+    margin-bottom: 48px;
+}
+
+.future-main-block {
+    display: flex;
+    /* gap: 25px; */
+    flex-direction: column;
+    background: #f8f8f8;
+}
+
+.future-photo {
+    width: 100%;
+    height: 100%;
+}
+
+.future-main-photo {
+    position: relative;
+}
+.future-main-photo-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(58, 56, 56, 0.86);
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.future-main-photo-button {
+    padding: 11px 13px 8px 16px;
+    border: 1px solid white;
+    background: transparent;
+    color: #fff;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.future-main-block:hover .future-main-photo-hover {
+    opacity: 100%;
+}
+
+.future-main-photo-button:hover {
+    transform: scale(1.1);
+}
+
+.future-main-text {
+    padding: 24px 16px 24px 16px;
+}
+
+.future-main-text-title {
+    color: #000;
+
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.future-main-text-description {
+    color: #5d5d5d;
+
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    width: 314.743px;
+    margin-bottom: 16px;
+}
+.future-main-text-price {
+    color: #f16d7f;
+
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.future-button {
+    display: flex;
+    justify-content: center;
+}
+
+.future-push {
+    padding: 15px 39px;
+    color: #f26376;
+
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #ff6a6a;
+    background: #fff;
+    transition: all 0.5s;
+}
+
+.future-push:hover {
+    background: #f16d7f;
+    color: #ffffff;
+}
+
+
+    </style>
+    <section class="future center">
+        <div class="future-heading">
+          <h2 class="future-heading-titl">Fetured Items</h2>
+          <h4 class="future-heading-text">
+            Shop for items based on what we featured in this week
+          </h4>
         </div>
-        <div class="banners">
-            <div class="banner">
-                <div class="img1 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img2 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img3 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img4 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img5 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="img6 fetured_items__img">
-                    <div class="fetured_items__hover-block">
-                        <a href="#">
-                            <div class="box">
-                                <div class="box__img">
-                                    <img src="./img/cart.svg" alt="cart">
-                                </div>
-                                <div class="box__text">
-                                    <p>Add to Cart</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="text">
-                    <a href="#"><p class="title">ELLERY X M'O CAPSULE</p></a>
-                    <p class="sub-title">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                        cool Kym Ellery teams up with Moda Operandi.</p>
-                    <p class="price">$52.00</p>
-                </div>
-            </div>
+        <div class="future-main">
         </div>
-        <div class="see_all">
-            <div class="rectangle">
-                <a href="/catalog.html"><p class="text">Browse All Product</p></a>
-            </div>
-        </div>
-    </div>
+        <div class="future-button">
+          <a href="catalog.html"><button class="future-push" >Browse All Product</button></a>
+      </section>        
+
     <div class="plus">
         <div class="content">
             <div class="block">
@@ -417,5 +442,6 @@
         </a>
     </div>
 </footer>
+<script src="./script6.js" type="module"></script>
 </body>
 </html>
